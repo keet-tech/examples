@@ -24,6 +24,7 @@ app.post("/create-link-token", async (req: Request, res: Response) => {
         integration,
         endUserId: "YOUR END USER ID",
         companyName: "Acme",
+        companyLogoUri: "https://pngtree.com/so/black-circle-logo",
       },
     }),
   });
